@@ -17,3 +17,4 @@ else:
     temp1 = numbers[(len(numbers) - 2) / 2]
     temp2 = numbers[len(numbers) / 2]
     medianVal = (temp1 + temp2) / 2
+print(medianVal)
