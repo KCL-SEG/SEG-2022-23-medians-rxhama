@@ -1,12 +1,5 @@
 """Median calculator."""
 """ENTER YOUR SOLUTION HERE!"""
-numbers = input()
-if len(numbers)%2 == 1:
-    value = numbers[(len(numbers) - 1) / 2]
-else:
-    temp1 = numbers[(len(numbers) - 2) / 2]
-    temp2 = numbers[len(numbers) / 2]
-    value = (temp1 + temp2) / 2
 
 while True:
     try:
@@ -17,3 +10,10 @@ while True:
     else:
         break
 print(numbers)
+
+if len(numbers)%2 == 1:
+    medianVal = numbers[(len(numbers) - 1) / 2]
+else:
+    temp1 = numbers[(len(numbers) - 2) / 2]
+    temp2 = numbers[len(numbers) / 2]
+    medianVal = (temp1 + temp2) / 2
